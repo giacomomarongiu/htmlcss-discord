@@ -1,1 +1,117 @@
+/*Classe Utilizzata per centrare tutti gli elementi*/
+.centered {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
+body {
+    margin: 0;
+}
+
+
+/*Header Things - one to contain and one to manage  */
+/*Upper menu*/
+#nav_container {
+    background-color: #add8e6;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.nav_bar {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/*Central banner*/
+#banner_container {
+    background-color: #00008b;
+    padding: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    ;
+}
+
+.banner {
+    background-color: #ee82ee;
+    height: 160px;
+}
+/*End of the header*/
+
+
+/*Main Things - one to contain and one(or two) to manage  */
+#m_containter {
+    display: flex;
+    height: 200px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#m_containter2 {
+    display: flex;
+    height: 200px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #d3d3d3;
+}
+.site_m{
+    background-color: #1e90ff;
+    width: 65%;
+}
+.site_a {
+    background-color: #ffc0cb;
+    width: 35%;
+}
+/*Changing order for switch main and aside content*/
+.site_a2 {
+    background-color: #ffc0cb;
+    width: 35%;
+    order: -1;
+}
+/*Used m_containter2 for the backgroud*/
+#site_down {
+    background-color: green;
+    width: 100%;
+}
+/*End of the Main*/
+
+
+/*Footer Things - one(or two) to contain and one(or two) to manage  */
+#site_footer {
+    display: flex;
+    justify-content: end;
+    background-color: #23272a;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer_column {
+    background-color: #20b2aa;
+    height: 150px;
+    width: 20%;
+}
+
+#footer_column2 {
+    background-color: #f08080;
+    order: -1;
+    width: 30%;
+    align-items: stretch;
+}
+/*Last menu bar*/
+#site_footer_line{
+    background-color: #23272a;
+}
+/*Another containter because of buttons*/
+#site_footer_line_container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7fffd4;
+    width: 100%;
+}
+
+.footer_button{
+    background-color: #ee82ee;
+}
+/*End of the footer*/
